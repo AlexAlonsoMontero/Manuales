@@ -2,10 +2,12 @@
 
 ## Sistemas:
 * VirtualBox
-    - [Instalar GuestAdditions y cambiar resolución de pantalla](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox/UbuntuServerGuestAdditions.md)
-## Ubuntu
-    - [Configuración Ip fija en Ubuntu](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox/UbuntuServIpFIja.md)
-    - [Configuración server SSHH](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox/UbuntuServSSHConfig.md)
+    - [Instalar GuestAdditions y cambiar resolución de pantalla](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServerGuestAdditions.md)
+    
+* Ubuntu:
+
+    - [Configuración Ip fija en Ubuntu](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServIpFIja.md)
+    - [Configuración server SSHH](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServSSHConfig.md)
 <hr> 
 
 ## Programación
