@@ -93,6 +93,10 @@ Failed! Error: SET PASSWORD has no significance for user 'root'@'localhost' as t
 
     ```
 
+<hr>
+
+## Configuración Apache
+
 ### Crear un host virtual para un sitio web:
 - Creamos el directorio
 ```

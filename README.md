@@ -8,7 +8,7 @@
 
     - [Configuración Ip fija en Ubuntu](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServIpFIja.md)
     - [Configuración server SSHH](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServSSHConfig.md)
-    - Instalación y configuración entornno LAMP
+    - [Instalación y configuración entornno LAMP](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/InstalacionConfigLAMP.md)
 <hr> 
 
 ## Programación
