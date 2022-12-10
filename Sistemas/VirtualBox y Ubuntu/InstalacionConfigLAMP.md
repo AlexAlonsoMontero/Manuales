@@ -74,7 +74,32 @@ Failed! Error: SET PASSWORD has no significance for user 'root'@'localhost' as t
     sudo mysql
     ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
     ```
+- Arrancar mysql
+```
+sudo systemctl start mysql
+```
+- Verifcicar estatus
+```
+sudo systemctl status mysql
+```
+
 <hr>
+
+* Configuración de permisos para acceso remoto:
+  - Configuramos el cortafuegos para permitir conexión:
+```
+  sudo ufw allow 3306
+```
+ - Modificamos el archivo "sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf"
+    - En la línea "bind-address" especifica que la ip es la 127.0.0.1 esto quiere decir que solo admite conexiones locales, la cambiamos por la ip del server, por ejemplo "192.168.1.55"
+    - Guardamosy cerramos
+ - Reiniciamos servicio: "sudo systemctl restart mysql"
+
+ - Permitir la conexión remota a un usuario de MySQL:
+```
+RENAME USER 'pym'@'localhost' TO 'pym'@'ip_servidor_remoto';
+``` 
+
 
 ## Instalación y configuración de PHP
 - Instalacion:
@@ -92,6 +117,13 @@ Failed! Error: SET PASSWORD has no significance for user 'root'@'localhost' as t
     with Zend OPcache v8.1.2-1ubuntu2.9, Copyright (c), by Zend Technologies
 
     ```
+
+- Mostrer errores en php
+  -Editamos el archivo php.ini en Ubuntu "/etc/php/versionphp/apache2/php.ini, y modficamos el valor display_errors poniéndolo así:
+  ```
+  display_errors = on
+  ```
+
 
 <hr>
 

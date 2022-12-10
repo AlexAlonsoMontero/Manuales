@@ -8,7 +8,7 @@
 
 * Ejecutamos "ifconfig" y vemos la ip que tenemos configurada.
 * Ela ruta "/etc/net/netplan/ y editamos el archivo de configuración de esta carpeta, dejando algo así:
-```
+```bash
 network:
   ethernets:
     ens160:
