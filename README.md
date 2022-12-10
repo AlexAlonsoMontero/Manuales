@@ -28,6 +28,6 @@
     - ViteJS: 
         - [Instalación y configuracion de Jest + React Testing Library](https://gist.github.com/AlexAlonsoMontero/981815de517902322f7a1c6b7bae9baf)
 ### PHP
-* PHP
+* [PHP](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Programacion/php.md)
 ### BASES DE DATOS
-* MySql   
+* [MySql](https://github.com/AlexAlonsoMontero/Manuales/blob/main/BD/mysql.md)

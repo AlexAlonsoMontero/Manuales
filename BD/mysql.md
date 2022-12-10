@@ -201,19 +201,19 @@ CREATE TABLE inmuebles (
 
 - Inertar registros
 
-  ```
+  ```sql
   INSERT INTO tblCustomers (CustomerID, [Last Name], [First Name])
   VALUES (1, 'Kelly', 'Jill')
   ```
 
   - Puede omitir la lista de campos, pero solo si proporciona todos los valores que puede contener el registro.
 
-  ```
+  ```sql
   INSERT INTO tblCustomers
   VALUES (1, Kelly, 'Jill', '555-1040', 'someone@microsoft.com')
   ```
   - Insertar registros que vienen de una consulta.La siguiente instrucción INSERT INTO inserta todos los valores de los campos CustomerID, Last Name y First Name de la tabla tblOldCustomers en los campos correspondientes de la tabla tblCustomers.
-  ```
+  ```sql
   INSERT INTO tblCustomers (CustomerID, [Last Name], [First Name]) 
     SELECT CustomerID, [Last Name], [First Name] 
     FROM tblOldCustomers
@@ -221,33 +221,33 @@ CREATE TABLE inmuebles (
 - Actualización de registros:
 
     - Actualziar los registros de una tabla:
-    ```
+    ```sql
     UPDATE table name SET field name  = some value
     ```
     - Actualizar los registros que coincidan con una condición:
-    ```
+    ```sql
     UPDATE tblCustomers
     SET Email = 'None'
     WHERE [Last Name] = 'Smith'
     ```
 - Eliminar registros:
     - Eliminar todos los rgistros de una tabla (ESTO ES PELIGROSO):
-    ```
+    ```sql
     DELETE FROM table list
     ```
     - Eliminar todos los registros que cumplan una determinada condición:
-    ```
+    ```sql
     DELETE FROM tblInvoices 
     WHERE InvoiceID = 3
     ```
     - Si lo que queremos es quitar datos de deterinados campos, usamos la clausula UPDATE, y ponemos esos valores en NULL
-    ```
+    ```sql
     UPDATE tblCustomers
     SET Email = Null
     ```
 ### CONSULTAS:
 - Estructura de una consulta básica:
-    ```
+    ```sql
     SELECT campos
     FROM tabla
     WHERE condicion
@@ -266,7 +266,7 @@ CREATE TABLE inmuebles (
     |In |	Valores que Coinciden en una Lista|
 
 - Ejemplos de consultas:
-```
+```sql
 SELECT * FROM table;
 SELECT * FROM table1, table2;
 SELECT field1, field2 FROM table1, table2;
