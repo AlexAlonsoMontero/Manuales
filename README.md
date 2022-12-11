@@ -24,7 +24,7 @@
 * [Como desplegar una aplicación NodeJS en Heroku](https://gist.github.com/AlexAlonsoMontero/fd43ef9b9b861816de8f3c1287262fd3)
 
 ### Front-End
-* JaScript Manipulación DOM
+* [JaScript Manipulación DOM (Cheat Sheet)](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Programacion/js-dom-manipulacion.MD)
 
 * ReactJS
     - ViteJS: 
