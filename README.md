@@ -24,6 +24,8 @@
 * [Como desplegar una aplicación NodeJS en Heroku](https://gist.github.com/AlexAlonsoMontero/fd43ef9b9b861816de8f3c1287262fd3)
 
 ### Front-End
+* JaScript Manipulación DOM
+
 * ReactJS
     - ViteJS: 
         - [Instalación y configuracion de Jest + React Testing Library](https://gist.github.com/AlexAlonsoMontero/981815de517902322f7a1c6b7bae9baf)
