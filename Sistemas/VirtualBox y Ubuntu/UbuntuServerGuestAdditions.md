@@ -30,3 +30,23 @@ GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"
 GRUB_GFXPAYLOAD_LINUX=keep
 ```
 ** Importante GRUB_GFXMODE= poner una resolución que aguante tu tarjeta gŕafica
+
+# Compartir carpeta
+- En VirtualBox en la configuración de la máquina virtual, seleccionamos Carpetas compartidas, seleccionamos una carpeta de la máquina anfitriona y otra de la máquina virtual. Importante marcar la opción de montar siempre
+- Iniciamos la máquina virtual e integramos el siguiente comando.
+ ```
+ sudo mount -o uid=1000,gid=1000 -t vboxsf depruebas /home/aalonso/depruebas 
+  ```
+- Para hacerlo permanente en el fichero "/etc/fstab" ponemos la siguiente liena
+```
+depruebas /home/aalonso/depruebas vboxsf uid=1000,gid=1000 0 0 
+```
+
+- Si por alguna razón no se montara correctamente la unidad despues de reiniciar teneis que abrir un terminal y ejecutar la siguiente instrucción
+```
+sudo mount -a
+```
+- Para desmontar la unidad utilizaremos el comando
+```
+sudo umount -i /home/asolano/depruebas 
+```
