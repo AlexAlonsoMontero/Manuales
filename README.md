@@ -2,7 +2,7 @@
 
 ## Sistemas:
 * VirtualBox
-    - [Instalar GuestAdditions y cambiar resolución de pantalla](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServerGuestAdditions.md)
+    - [Instalar GuestAdditions, cambiar resolución de pantalla y compartir carpeta con el host](https://github.com/AlexAlonsoMontero/Manuales/blob/main/Sistemas/VirtualBox%20y%20Ubuntu/UbuntuServerGuestAdditions.md)
     
 * Ubuntu:
 
